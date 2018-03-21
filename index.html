@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>verena carpella portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous"><!-- for the heart icon in the footer -->
+  </head>
+  <body>
+<!-- header with my name and profession -->
+    <header class="header">
+      <img class="header__logo" src="image/VerenaCarpella-logo-positiv.png" alt="verena carpella logo">
+      <div class="header__inner">
+        <h1 class="header__title">
+          <span class="name">verena <span class="bold">carpella</span></span><br>
+          <span class="job">frontend dev & design</span>
+        </h1>
+      </div>
+    </header>
+<!-- hero image -->
+    <main>
+      <section class="content">
+        <section class="hero__header">
+          <picture> <!-- art direction responsive images -->
+            <source media="(max-width: 679px)" srcset="image/hero-me.png">
+            <source media="(min-width: 680px)" srcset="image/hero-me-hero.png">
+            <img src="image/hero-me-512w.png" alt="hero sized image with Verena smiling" class="hero__image">
+          </picture>
+          <section class="hero__zitat">
+            <h2 class="zitat">simplicity is the ultimate sophistication</h2>
+            <!--a href="https://de.wikipedia.org/wiki/Leonardo_da_Vinci" class="more" target="_blank">more...</a-->
+          </section>
+        </section>
+<!-- portfolio with workexamples as link in codepen.io -->
+        <section class="about">
+          <ul>
+            <li class="about__item">
+              29 years // austria - vienna // creative
+            </li>
+            <li class="about__item">
+              html5 // css // scss // javascript // jQuery
+            </li>
+            <li class="about__item">
+              yoga // diving // photography // food
+            </li>
+          </ul>
+        </section>
+<!-- navigation for the projects (html anchor) -->
+        <section class="project__nav">
+          <h3> projects</h3>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#project1">#1</a>
+            </li>
+            <li class="nav__item">
+              <a href="#project2">#2</a>
+            </li>
+            <li class="nav__item">
+              <a href="#project3">#3</a>
+            </li>
+          </ul>
+        </section>
+<!-- projects for my portfolio with codepen link as cards -->
+        <section id="work" class="work">
+          <section id="project1" class="card__project1">
+            <a href="https://codepen.io/verenaEna/full/aEeWWz/" target="_blank" class="project__link">
+              <picture> <!-- art direction responsive images -->
+                <source media="(max-width: 679px)" srcset="image/project1-512w.png">
+                <source media="(min-width: 680px)" srcset="image/project1-desktop-445px.png">
+                <img class="project1" src="image/project1.png" alt="namom first project"/>
+              </picture>
+              <p class="project__title">
+                #1 animal card
+              </p>
+            </a>
+          </section>
+          <section id="project2" class="card__project2">
+            <a href="https://codepen.io/verenaEna/pen/baProR" target="_blank" class="project__link">
+              <picture> <!-- art direction responsive images -->
+                <source media="(max-width: 679px)" srcset="image/project2-512w.png">
+                <source media="(min-width: 680px)" srcset="image/project2-desktop-462px.png">
+                <img class="project2" src="image/project2.png" alt="angkor wat second project" />
+              </picture>
+              <p class="project__title">
+                #2 pixel art
+              </p>
+            </a>
+          </section>
+          <section id="project3" class="card__project3">
+            <a href="#" class="project__link">
+              <picture> <!-- art direction responsive images -->
+                <source media="(max-width: 679px)" srcset="image/project3-512w.png">
+                <source media="(min-width: 680px)" srcset="image/project3-desktop-907px.png">
+                <img class="project3" src="image/project1.png" alt="buddha third project" />
+              </picture>
+            </a>
+            <p class="project__title">
+              <!-- because of the use of unsplash photos - credit the photgraph -->
+              <a class="credit__badge" href="https://unsplash.com/@goodspleen?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Alexandre Chambon">
+                <span class="credit">
+                  <svg class="credit__image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                    <title>unsplash-logo</title>
+                      <path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z">
+                      </path>
+                  </svg>
+                </span>
+                <span class="credit__name">Alexandre Chambon</span>
+              </a>
+            </p>
+          </section>
+        </section>
+      </section>
+    </main>
+<!-- footer -->
+    <footer>
+      <p class="footer__text">
+        2018 austria <br> made with <i class="fas fa-heart"></i>in Vienna
+      </p>
+      <ul class="social__list">
+        <li class="social__item">
+          <a class="social__link" href="https://www.linkedin.com/in/verenacarpella" target="_blank">
+            <i class="fab fa-linkedin"></i><span class="social">linkedIn</span>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="https://www.facebook.com/opusparaluxe" target="_blank">
+            <i class="fab fa-facebook-messenger"></i><span class="social">facebook</span>
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="mailto:verenaparaluxe@gmail.com" target="_top" class="social__link" >
+            <i class="fas fa-envelope"></i><span class="social">email</span>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="https://github.com/VerenaEna" target="_blank">
+            <i class="fab fa-github-square"></i><span class="social">github</span>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
