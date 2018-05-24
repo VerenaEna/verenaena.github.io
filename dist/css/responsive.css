@@ -1,0 +1,107 @@
+/**************************************************/
+/******** media queries breakpoints ***************/
+/**************************************************/
+/************* mobile - mobile xl *************/
+@media screen and (min-width: 480px) {
+  .header__title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 1.3rem; }
+  .hero__image {
+    margin-top: 3rem; }
+  .project__nav {
+    font-size: 1.3rem;
+    margin: auto;
+    width: 90%; }
+  .about__item {
+    font-size: 1.2rem; }
+  .zitat {
+    font-size: 2.2rem;
+    width: 200px;
+    right: 10%;
+    top: 7rem; }
+  .about {
+    margin-bottom: 2rem; }
+  .name,
+  .project__nav {
+    margin: 0 2rem; }
+  .name {
+    margin: 0 0 0 4rem; }
+  .card__project1 {
+    width: 50%; }
+  .card__project2 {
+    width: 50%; }
+  .card__project3 {
+    width: 100%; } }
+
+/************* microsoft lumia *************/
+@media screen and (min-width: 640px) {
+  .social {
+    margin: 0 10px; }
+  .social__list {
+    font-size: 1.1rem; }
+  .footer__text {
+    font-size: 1rem; } }
+
+/************* tablet *************/
+@media screen and (min-width: 768px) {
+  .job,
+  .name,
+  .project__nav {
+    font-size: 1.2rem; }
+  .zitat {
+    font-size: 2.2rem;
+    width: 210px;
+    right: 15%;
+    top: 7rem; }
+  .social {
+    margin: 0 10px;
+    font-size: 1rem; }
+  .social__item {
+    padding: 0 15px; }
+  .card__project1 {
+    width: 48%; }
+  .card__project2 {
+    width: 50%; }
+  .card__project3 {
+    width: 99%; }
+  .footer__text {
+    font-size: 0.8rem; } }
+
+/************* desktop *************/
+@media screen and (min-width: 1024px) {
+  .zitat {
+    font-size: 3rem;
+    width: 300px;
+    right: 150px;
+    top: 8rem; }
+  .about {
+    font-size: 1.3rem;
+    padding-top: 1rem; }
+  .work {
+    width: 70%; }
+  .project1:hover,
+  .project2:hover,
+  .project3:hover {
+    opacity: 0.5; }
+  .hero__image:hover {
+    opacity: 0.8; }
+  .social__link:link {
+    color: white; }
+  .social__link:visited {
+    color: lightgrey; }
+  .social__link:active {
+    color: #00567e; }
+  .project__link:hover {
+    font-weight: bold; } }
+
+/************* desktop xl *************/
+@media screen and (min-width: 1440px) {
+  .zitat {
+    font-size: 4rem;
+    width: 400px;
+    right: 10%; } }
