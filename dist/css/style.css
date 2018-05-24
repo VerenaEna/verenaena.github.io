@@ -139,7 +139,7 @@ img {
     padding: 3px 5px 3px 0; }
 
 /************* footer *************/
-footer {
+.footer {
   background-color: #00567e;
   color: white;
   display: -webkit-box;
@@ -152,10 +152,10 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-  footer__text {
+  .footer__text {
     font-size: 1rem;
     padding: 1rem 0 1rem 1rem; }
-    footer__text:before {
+    .footer__text:before {
       content: "©"; }
 
 .social {
