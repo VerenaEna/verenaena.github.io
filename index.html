@@ -26,7 +26,11 @@
     <main>
       <section class="content">
         <section class="hero__header">
-          
+          <picture> <!-- art direction responsive images -->
+            <source media="(max-width: 679px)" srcset="image/hero-me.png">
+            <source media="(min-width: 680px)" srcset="image/hero-me-hero.png">
+            <img src="image/hero-me-512w.png" alt="hero sized image with Verena smiling" class="hero__image">
+          </picture>
           <section class="hero__zitat">
             <h2 class="zitat">simplicity is the ultimate sophistication</h2>
             <!--a href="https://de.wikipedia.org/wiki/Leonardo_da_Vinci" class="more" target="_blank">more...</a-->
