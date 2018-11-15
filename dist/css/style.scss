@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Leckerli+One|Shadows+Into+Light');
+
+/************ general ****************/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: normal 16px "Roboto", sans-serif;
+  max-width: 100%;
+}
+
+main {
+  margin-bottom: 3rem;
+}
+
+img {
+  width: 100%;
+  .hero__image {
+    margin-top: 5rem;
+  }
+}
+
+/****** header *******/
+.header {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: auto;
+  z-index: 10;
+  box-shadow: 0 2px 5px rgba(0, 86, 126, 0.2);
+
+  &__logo {
+    width: 60px;
+    margin: 10px 5px 0 10px;
+    display: flex;
+    top: 0;
+    position: absolute;
+  }
+  &__title {
+    font-weight: normal;
+    line-height: 1.4rem;
+    text-align: right;
+    color: #00567e;
+    margin: 1rem;
+  }
+}
+
+.job {
+  font-weight: lighter;
+  font-size: 1.1rem;
+  color: black;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
+
+.zitat {
+  position: absolute;
+  top: 8rem;
+  color: white;
+  right: 70px;
+  text-align: center;
+  width: 180px;
+  /*font-family: 'Pacifico', cursive;*/
+  /*font-family: 'Shadows Into Light', cursive;*/
+  font: 2.2rem "Leckerli One", cursive;
+}
+
+/***** about me section ******/
+
+.about__item {
+  text-align: center;
+  list-style: none;
+  margin: 15px 0;
+}
+
+/***** projects section ******/
+
+.project{
+  &__link {
+    text-decoration: none;
+  }
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.4rem;
+    color: #00567e;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  &__title {
+    color: #00567e;
+  }
+}
+
+.work {
+  margin: auto;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 88%;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav__item {
+  margin: 0 0.5rem;
+  font-weight: normal;
+}
+
+/************** project cards **************/
+
+
+.card__project1,
+.card__project2,
+.card__project3 {
+  margin: 1rem auto;
+}
+
+/* for credit the photography - unsplash image */
+.credit {
+  display: inline-block;
+  padding: 3px 3px 3px 5px;
+  vertical-align: top;
+
+  &__badge { /* because of use of unsplash image - credit */
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 4px 6px;
+    font: bold 12px/1.2 "Helvetica Neue", "Helvetica", "Ubuntu", "Roboto", sans-serif;
+    display: inline-block;
+    border-radius: 3px;
+  }
+
+  &__image {
+    height: 12px;
+    width: auto;
+    position: relative;
+    vertical-align: middle;
+    top: -1px;
+    fill: white;
+  }
+
+  &__name {
+    display: inline-block;
+    padding: 3px 5px 3px 0;
+  }
+}
+
+/************* footer *************/
+
+footer {
+  background-color: #00567e;
+  color: white;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+
+  &__text {
+    font-size: 1rem;
+    padding: 1rem 0 1rem 1rem;
+
+    &:before {
+      content: "©";
+    }
+  }
+}
+
+.social {
+  margin: -99999px;
+
+  &__list {
+    display: flex;
+    list-style: none;
+    padding: 1.1rem;
+    font-size: 1.4rem;
+  }
+  &__item {
+    padding: 0 5px;
+  }
+  &__link {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+i.fas.fa-heart {
+  margin: 0 4px;
+  vertical-align: middle;
+  line-height: 1.6;
+}
