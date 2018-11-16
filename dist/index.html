@@ -26,7 +26,11 @@
     <main>
       <section class="content">
         <section class="hero__header">
-          
+          <picture> <!-- art direction responsive images -->
+            <source media="(max-width: 679px)" srcset="image/hero-me.png">
+            <source media="(min-width: 680px)" srcset="image/hero-me-hero.png">
+            <img src="image/hero-me-512w.png" alt="hero sized image with Verena smiling" class="hero__image">
+          </picture>
           <section class="hero__zitat">
             <h2 class="zitat">simplicity is the ultimate sophistication</h2>
             <!--a href="https://de.wikipedia.org/wiki/Leonardo_da_Vinci" class="more" target="_blank">more...</a-->
@@ -36,10 +40,10 @@
         <section class="about">
           <ul>
             <li class="about__item">
-              29 years // austria - vienna // creative
+              30 years // austria - vienna // creative
             </li>
             <li class="about__item">
-              html5 // css // scss // javascript // jQuery
+              html5 // css // scss // javascript // jQuery // php
             </li>
             <li class="about__item">
               yoga // diving // photography // food
@@ -61,32 +65,24 @@
 <!-- projects for my portfolio with codepen link as cards -->
         <section id="work" class="work">
           <section id="project1" class="card__project1">
+            <video src='\image\memory.mp4' poster="memory.png" width="100%" type='video/mp4' autoplay loop>
+            </video>
             <a href="https://verenaena.github.io/FEND-Memory/" target="_blank" class="project__link">
-              <picture> <!-- art direction responsive images -->
-                <source media="(max-width: 679px)" srcset="image/project1-512w.png">
-                <source media="(min-width: 680px)" srcset="image/project1-desktop-445px.png">
-                <img class="project1" src="image/project1.png" alt="dog sleeping with darker blue transparent overlay"/>
-              </picture>
-
               <h4 class="project__title">
                 #1 memory Game in jquery
               </h4>
             </a>
+
           </section>
           <section id="project2" class="card__project2">
+            <video src='\image\arcadegame.webm' poster="frogger.png" width="100%" type='video/webm' autoplay loop>
+            </video>
             <a href="https://verenaena.github.io/ClassicArcadeGame/" target="_blank" class="project__link">
-            <!--picture> <!-- art direction responsive images -->
-                <!-- <source media="(max-width: 679px)" srcset="image/project2-512w.png">
-                <source media="(min-width: 680px)" srcset="image/project2-desktop-462px.png">
-                <img class="project2" src="image/project2.png" alt="angkor wat with sunrise in the middle of the stupa" /> -->
-              <!--/picture-->
-              <video src='\image\arcadegame.webm' poster="frogger.png" width="510" height="361" type='video/webm' autoplay loop>
-                <p>OhOh! Dein Browser unterstützt kein HTML5 video. Keine Sorge -<a href="/image/arcadegame.webm">hier klicken</a> um das Video herunterzuladen.</p>
-              </video>
               <h4 class="project__title">
                 #2 frogger arcade game in js
               </h4>
             </a>
+
           </section>
         </section>
       </section>
